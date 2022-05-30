@@ -9,5 +9,5 @@ API_KEY = os.environ['API_KEY']
 
 dashboard = meraki.DashboardAPI(API_KEY, suppress_logging=True)
 
-for n, s in hosts.data()['lvl73']['devices'].items():
+for n, s in hosts.data()['sitename']['devices'].items():
     reboot = dashboard.devices.rebootDevice(serial=s)
