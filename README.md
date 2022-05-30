@@ -17,7 +17,9 @@ mysecretcode="ITSASECRET"
 Inventory is stored in the hosts.yml, with the following structure
 
 sitename:
+
   devices:
+  
     deviceName: serial number
 
 
