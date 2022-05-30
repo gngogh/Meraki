@@ -15,4 +15,5 @@ variable name="key"
 mysecretcode="ITSASECRET"
 
 For ansible Job run the script from main.yml
+
 For testing run the script from main.py
